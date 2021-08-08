@@ -90,4 +90,15 @@ volumes:
     name: mongo-data
   postgres-data:
     name: postgres-data
+  data01:
+    driver: local
+  data02:
+    driver: local
+  data03:
+    driver: local
+
+networks:
+  elastic:
+    driver: bridge
+
 
